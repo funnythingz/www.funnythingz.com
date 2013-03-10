@@ -1,0 +1,105 @@
+<!Doctype html>
+<html lang="ja">
+<head>
+
+<link rel="canonical" href="http://funnythingz.com/2ch/">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>2ちゃんねる(2ch)まとめのまとめ</title>
+
+<meta property="og:title" content="2ちゃんねる(2ch)まとめのまとめ">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://funnythingz.com/2ch/">
+<meta property="og:image" content="">
+<meta property="og:site_name" content="2ちゃんねる(2ch)まとめのまとめ">
+<meta property="og:description" content="たかさんのために2ちゃんねる(2ch)のまとめをまとめてみた">
+<meta name="Description" content="たかさんのために2ちゃんねる(2ch)のまとめをまとめてみた">
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<style type="text/css">
+div {
+	line-height: 1.5;
+}
+.gfc-tabsArea {zoom: 1;}
+.gfc-tabHeader {
+	margin: 0 0.5em 0.5em 0;
+	padding: 4px;
+	border: solid 1px #999;
+	display: inline-block;
+	white-space: nowrap;
+	float: left;
+	border-radius: 4px;
+}
+.gfc-tabhActive {
+background: #a90329; /* Old browsers */
+background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+background: linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+color: #fff !important;
+font-weight: bold;
+}
+.gfc-result {
+	padding: 5px;
+	border: solid 1px #ccc;
+	margin: 0 0 1em;
+	border-radius: 5px;
+}
+.gfc-resultsbox-visible {clear:both;}
+</style>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1882060-9']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+
+<h1>2ちゃんねる(2ch)まとめのまとめ</h1>
+
+<div id="feedControl"></div>
+
+<script type="text/javascript">
+(function(){
+    google.load("feeds", "1");
+
+    function initialize() {
+        var feedControl = new google.feeds.FeedControl();
+        feedControl.setLinkTarget(google.feeds.LINK_TARGET_BLANK);
+        feedControl.setNumEntries(7);
+        feedControl.addFeed( 'http://blog.livedoor.jp/dqnplus/atom.xml', '痛いニュース' );
+        feedControl.addFeed( 'http://hamusoku.com/atom.xml', 'ハム速' );
+        feedControl.addFeed( 'http://mcz.ldblog.jp/atom.xml', 'ももクロまとめんだーZ' );
+        feedControl.addFeed( 'http://blog.livedoor.jp/hisabisaniwarota/atom.xml', 'ワロタニッキ' );
+				feedControl.addFeed( 'http://oryouri.2chblog.jp/atom.xml', 'お料理速報' );
+				feedControl.addFeed( 'http://hijikisokuhou.doorblog.jp/atom.xml', 'ゆるりと ひじき速報' );
+				feedControl.addFeed( 'http://blog.livedoor.jp/news23vip/index.rdf', 'VIPPERな俺' );
+        feedControl.addFeed( 'http://blog.livedoor.jp/himasoku123/atom.xml', '暇人＼(＾o＾)／速報' );
+        feedControl.addFeed( 'http://blog.livedoor.jp/nicovip2ch/atom.xml', 'ニコニコVIP2ch' );
+				feedControl.addFeed( 'http://stalker.livedoor.biz/atom.xml', 'がぞー速報' );
+        feedControl.draw(
+        document.getElementById( 'feedControl' ), {
+            drawMode : google.feeds.FeedControl.DRAW_MODE_TABBED
+        });
+    }
+    google.setOnLoadCallback( initialize );
+
+})();
+</script>
+
+<address>&copy; <a href="http://www.funnythingz.com/" target="_blank">funnythingz</a></address>
+
+</body>
+</html>
